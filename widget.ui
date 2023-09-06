@@ -168,15 +168,27 @@
               <height>200</height>
              </size>
             </property>
+            <property name="styleSheet">
+             <string notr="true">border-radius:20px;</string>
+            </property>
             <property name="text">
-             <string>头像</string>
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>C:/Users/林木/Desktop/重要文档/重要图片/微信图片_20211122193210.jpg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
             </property>
            </widget>
           </item>
           <item>
            <widget class="QLabel" name="label_7">
             <property name="text">
-             <string>id</string>
+             <string>Linmu</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
             </property>
            </widget>
           </item>
@@ -308,7 +320,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="menu3">
+          <widget class="QPushButton" name="menu2">
            <property name="minimumSize">
             <size>
              <width>100</width>
@@ -337,7 +349,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="menu2">
+          <widget class="QPushButton" name="menu3">
            <property name="minimumSize">
             <size>
              <width>100</width>
@@ -381,11 +393,11 @@
         </layout>
        </item>
        <item>
-        <widget class="QStackedWidget" name="sw_main_7">
+        <widget class="QStackedWidget" name="sw_main">
          <property name="currentIndex">
-          <number>1</number>
+          <number>2</number>
          </property>
-         <widget class="QWidget" name="page_31">
+         <widget class="QWidget" name="inventory">
           <widget class="QWidget" name="horizontalLayoutWidget">
            <property name="geometry">
             <rect>
@@ -399,21 +411,21 @@
             <item>
              <widget class="QLabel" name="label_2">
               <property name="text">
-               <string>资产地点列表,需要配合esi获取，并按照顺序排列开来</string>
+               <string>库存</string>
               </property>
              </widget>
             </item>
             <item>
              <widget class="QLabel" name="label_3">
               <property name="text">
-               <string>左边选中物品以后的资产详情</string>
+               <string>购买建议</string>
               </property>
              </widget>
             </item>
            </layout>
           </widget>
          </widget>
-         <widget class="QWidget" name="page_33">
+         <widget class="QWidget" name="personnalasserts">
           <widget class="QWidget" name="horizontalLayoutWidget_3">
            <property name="geometry">
             <rect>
@@ -423,32 +435,28 @@
              <height>551</height>
             </rect>
            </property>
-           <layout class="QHBoxLayout" name="horizontalLayout_5">
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
             <item>
-             <widget class="QLabel" name="label_12">
-              <property name="text">
-               <string>选中要参与计算的资产地点</string>
+             <widget class="QListWidget" name="localtions">
+              <property name="maximumSize">
+               <size>
+                <width>250</width>
+                <height>16777215</height>
+               </size>
               </property>
              </widget>
             </item>
             <item>
              <widget class="QLabel" name="label_13">
               <property name="text">
-               <string>预期制造方案，要造什么造多少</string>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QLabel" name="label_11">
-              <property name="text">
-               <string>分析还要买什么</string>
+               <string>左边选中物品以后的资产详情</string>
               </property>
              </widget>
             </item>
            </layout>
           </widget>
          </widget>
-         <widget class="QWidget" name="page_32">
+         <widget class="QWidget" name="industry">
           <widget class="QWidget" name="horizontalLayoutWidget_2">
            <property name="geometry">
             <rect>
@@ -458,7 +466,7 @@
              <height>551</height>
             </rect>
            </property>
-           <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <layout class="QHBoxLayout" name="horizontalLayout_1">
             <item>
              <widget class="QLabel" name="label_10">
               <property name="text">

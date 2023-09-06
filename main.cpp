@@ -9,5 +9,6 @@ int main(int argc, char *argv[])
     styleSheet.setFileName("://index.css");
     Widget w;
     w.show();
+
     return a.exec();
 }
