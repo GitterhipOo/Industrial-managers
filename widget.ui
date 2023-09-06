@@ -16,7 +16,7 @@
   <widget class="QWidget" name="w_bg" native="true">
    <property name="geometry">
     <rect>
-     <x>10</x>
+     <x>0</x>
      <y>0</y>
      <width>1044</width>
      <height>645</height>
@@ -129,7 +129,7 @@
                </font>
               </property>
               <property name="text">
-               <string>管理界面</string>
+               <string>工业管理</string>
               </property>
              </widget>
             </item>
@@ -157,167 +157,63 @@
              <property name="rightMargin">
               <number>10</number>
              </property>
-             <item>
-              <widget class="Line" name="line">
-               <property name="font">
-                <font>
-                 <pointsize>9</pointsize>
-                 <bold>false</bold>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true"/>
-               </property>
-               <property name="orientation">
-                <enum>Qt::Horizontal</enum>
-               </property>
-              </widget>
-             </item>
             </layout>
            </widget>
           </item>
           <item>
-           <layout class="QGridLayout" name="gridLayout">
-            <property name="spacing">
-             <number>3</number>
-            </property>
-            <item row="0" column="0">
-             <widget class="QToolButton" name="menu_1">
-              <property name="minimumSize">
-               <size>
-                <width>70</width>
-                <height>70</height>
-               </size>
-              </property>
-              <property name="maximumSize">
-               <size>
-                <width>70</width>
-                <height>70</height>
-               </size>
-              </property>
-              <property name="font">
-               <font>
-                <pointsize>9</pointsize>
-               </font>
-              </property>
-              <property name="cursor">
-               <cursorShape>PointingHandCursor</cursorShape>
-              </property>
-              <property name="styleSheet">
-               <string notr="true">margin:3px</string>
-              </property>
-              <property name="text">
-               <string>刷新信息</string>
-              </property>
-              <property name="icon">
-               <iconset>
-                <normaloff>:/icons/umbrella.png</normaloff>:/icons/umbrella.png</iconset>
-              </property>
-              <property name="toolButtonStyle">
-               <enum>Qt::ToolButtonTextUnderIcon</enum>
-              </property>
-             </widget>
-            </item>
-            <item row="0" column="1">
-             <widget class="QToolButton" name="menu_2">
-              <property name="minimumSize">
-               <size>
-                <width>70</width>
-                <height>70</height>
-               </size>
-              </property>
-              <property name="styleSheet">
-               <string notr="true">margin:3px</string>
-              </property>
-              <property name="text">
-               <string>删除信息</string>
-              </property>
-             </widget>
-            </item>
-            <item row="1" column="0">
-             <widget class="QToolButton" name="menu_3">
-              <property name="minimumSize">
-               <size>
-                <width>70</width>
-                <height>70</height>
-               </size>
-              </property>
-              <property name="styleSheet">
-               <string notr="true">margin:3px</string>
-              </property>
-              <property name="text">
-               <string>增加信息</string>
-              </property>
-             </widget>
-            </item>
-            <item row="1" column="1">
-             <widget class="QToolButton" name="menu_4">
-              <property name="minimumSize">
-               <size>
-                <width>70</width>
-                <height>70</height>
-               </size>
-              </property>
-              <property name="styleSheet">
-               <string notr="true">margin:3px</string>
-              </property>
-              <property name="text">
-               <string>上传信息</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </item>
-          <item>
-           <widget class="QLabel" name="lab_title">
+           <widget class="QLabel" name="label_5">
             <property name="minimumSize">
              <size>
               <width>0</width>
-              <height>30</height>
+              <height>200</height>
              </size>
             </property>
-            <property name="font">
-             <font>
-              <family>幼圆</family>
-              <pointsize>12</pointsize>
-              <bold>true</bold>
-              <kerning>true</kerning>
-             </font>
-            </property>
-            <property name="cursor">
-             <cursorShape>ArrowCursor</cursorShape>
-            </property>
-            <property name="focusPolicy">
-             <enum>Qt::NoFocus</enum>
-            </property>
-            <property name="acceptDrops">
-             <bool>false</bool>
-            </property>
-            <property name="layoutDirection">
-             <enum>Qt::LeftToRight</enum>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">margin-top:3px;</string>
-            </property>
             <property name="text">
-             <string>查询结果</string>
-            </property>
-            <property name="scaledContents">
-             <bool>false</bool>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
+             <string>头像</string>
             </property>
            </widget>
           </item>
           <item>
-           <spacer name="verticalSpacer_2">
+           <widget class="QLabel" name="label_7">
+            <property name="text">
+             <string>id</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer">
             <property name="orientation">
              <enum>Qt::Vertical</enum>
             </property>
             <property name="sizeHint" stdset="0">
              <size>
               <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_4">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>250</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>用户信息</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
               <height>20</height>
              </size>
             </property>
@@ -344,131 +240,6 @@
           <property name="bottomMargin">
            <number>0</number>
           </property>
-          <item>
-           <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="1,0,2,0,2,0,1">
-            <item>
-             <spacer name="horizontalSpacer_4">
-              <property name="orientation">
-               <enum>Qt::Horizontal</enum>
-              </property>
-              <property name="sizeHint" stdset="0">
-               <size>
-                <width>40</width>
-                <height>20</height>
-               </size>
-              </property>
-             </spacer>
-            </item>
-            <item>
-             <widget class="QPushButton" name="btn_littleshow">
-              <property name="minimumSize">
-               <size>
-                <width>35</width>
-                <height>35</height>
-               </size>
-              </property>
-              <property name="maximumSize">
-               <size>
-                <width>35</width>
-                <height>35</height>
-               </size>
-              </property>
-              <property name="text">
-               <string/>
-              </property>
-              <property name="icon">
-               <iconset>
-                <normaloff>:/icons/mini.png</normaloff>:/icons/mini.png</iconset>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <spacer name="horizontalSpacer_2">
-              <property name="orientation">
-               <enum>Qt::Horizontal</enum>
-              </property>
-              <property name="sizeHint" stdset="0">
-               <size>
-                <width>40</width>
-                <height>20</height>
-               </size>
-              </property>
-             </spacer>
-            </item>
-            <item>
-             <widget class="QPushButton" name="btn_home">
-              <property name="minimumSize">
-               <size>
-                <width>35</width>
-                <height>35</height>
-               </size>
-              </property>
-              <property name="maximumSize">
-               <size>
-                <width>35</width>
-                <height>35</height>
-               </size>
-              </property>
-              <property name="text">
-               <string/>
-              </property>
-              <property name="icon">
-               <iconset>
-                <normaloff>:/icons/home.png</normaloff>:/icons/home.png</iconset>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <spacer name="horizontalSpacer_3">
-              <property name="orientation">
-               <enum>Qt::Horizontal</enum>
-              </property>
-              <property name="sizeHint" stdset="0">
-               <size>
-                <width>40</width>
-                <height>20</height>
-               </size>
-              </property>
-             </spacer>
-            </item>
-            <item>
-             <widget class="QPushButton" name="btn_logout">
-              <property name="minimumSize">
-               <size>
-                <width>35</width>
-                <height>35</height>
-               </size>
-              </property>
-              <property name="maximumSize">
-               <size>
-                <width>35</width>
-                <height>35</height>
-               </size>
-              </property>
-              <property name="text">
-               <string/>
-              </property>
-              <property name="icon">
-               <iconset>
-                <normaloff>:/icons/logout.png</normaloff>:/icons/logout.png</iconset>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <spacer name="horizontalSpacer_5">
-              <property name="orientation">
-               <enum>Qt::Horizontal</enum>
-              </property>
-              <property name="sizeHint" stdset="0">
-               <size>
-                <width>40</width>
-                <height>20</height>
-               </size>
-              </property>
-             </spacer>
-            </item>
-           </layout>
-          </item>
          </layout>
         </widget>
        </item>
@@ -476,8 +247,8 @@
      </widget>
     </item>
     <item>
-     <widget class="QWidget" name="w_main" native="true">
-      <layout class="QVBoxLayout" name="verticalLayout_5" stretch="0,0">
+     <widget class="QWidget" name="w_main_3" native="true">
+      <layout class="QVBoxLayout" name="verticalLayout_49" stretch="0,0">
        <property name="spacing">
         <number>19</number>
        </property>
@@ -488,7 +259,7 @@
         <number>6</number>
        </property>
        <item>
-        <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <layout class="QHBoxLayout" name="horizontalLayout_31">
          <property name="spacing">
           <number>27</number>
          </property>
@@ -499,7 +270,7 @@
           <number>4</number>
          </property>
          <item>
-          <spacer name="horizontalSpacer_8">
+          <spacer name="horizontalSpacer_40">
            <property name="orientation">
             <enum>Qt::Horizontal</enum>
            </property>
@@ -512,7 +283,7 @@
           </spacer>
          </item>
          <item>
-          <widget class="QPushButton" name="btn_main_item_5">
+          <widget class="QPushButton" name="menu1">
            <property name="sizePolicy">
             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
              <horstretch>0</horstretch>
@@ -532,12 +303,12 @@
             </font>
            </property>
            <property name="text">
-            <string>医院信息</string>
+            <string>个人资产</string>
            </property>
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="btn_main_item_1">
+          <widget class="QPushButton" name="menu3">
            <property name="minimumSize">
             <size>
              <width>100</width>
@@ -561,12 +332,12 @@
             <cursorShape>PointingHandCursor</cursorShape>
            </property>
            <property name="text">
-            <string>科室信息</string>
+            <string>工业查询</string>
            </property>
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="btn_main_item_2">
+          <widget class="QPushButton" name="menu2">
            <property name="minimumSize">
             <size>
              <width>100</width>
@@ -590,61 +361,12 @@
             <cursorShape>PointingHandCursor</cursorShape>
            </property>
            <property name="text">
-            <string>医生信息</string>
+            <string>库存管理</string>
            </property>
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="btn_main_item_3">
-           <property name="minimumSize">
-            <size>
-             <width>100</width>
-             <height>0</height>
-            </size>
-           </property>
-           <property name="maximumSize">
-            <size>
-             <width>150</width>
-             <height>50</height>
-            </size>
-           </property>
-           <property name="font">
-            <font>
-             <family>幼圆</family>
-             <pointsize>21</pointsize>
-             <bold>true</bold>
-            </font>
-           </property>
-           <property name="cursor">
-            <cursorShape>PointingHandCursor</cursorShape>
-           </property>
-           <property name="text">
-            <string>病人信息</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QPushButton" name="btn_main_item_4">
-           <property name="minimumSize">
-            <size>
-             <width>100</width>
-             <height>50</height>
-            </size>
-           </property>
-           <property name="font">
-            <font>
-             <family>幼圆</family>
-             <pointsize>21</pointsize>
-             <bold>true</bold>
-            </font>
-           </property>
-           <property name="text">
-            <string>药物信息</string>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <spacer name="horizontalSpacer_9">
+          <spacer name="horizontalSpacer_41">
            <property name="orientation">
             <enum>Qt::Horizontal</enum>
            </property>
@@ -659,306 +381,100 @@
         </layout>
        </item>
        <item>
-        <widget class="QStackedWidget" name="sw_main">
+        <widget class="QStackedWidget" name="sw_main_7">
          <property name="currentIndex">
-          <number>0</number>
+          <number>1</number>
          </property>
-         <widget class="QWidget" name="page">
-          <layout class="QVBoxLayout" name="verticalLayout_7">
-           <item>
-            <widget class="QTableWidget" name="tableWidget_p_0">
-             <property name="layoutDirection">
-              <enum>Qt::LeftToRight</enum>
-             </property>
-             <column>
+         <widget class="QWidget" name="page_31">
+          <widget class="QWidget" name="horizontalLayoutWidget">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>771</width>
+             <height>551</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <item>
+             <widget class="QLabel" name="label_2">
               <property name="text">
-               <string>科室编号</string>
+               <string>资产地点列表,需要配合esi获取，并按照顺序排列开来</string>
               </property>
-             </column>
-             <column>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_3">
               <property name="text">
-               <string>名称</string>
+               <string>左边选中物品以后的资产详情</string>
               </property>
-             </column>
-             <column>
-              <property name="text">
-               <string>位置</string>
-              </property>
-             </column>
-             <column>
-              <property name="text">
-               <string>序号</string>
-              </property>
-             </column>
-            </widget>
-           </item>
-          </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
          </widget>
-         <widget class="QWidget" name="page_2">
-          <layout class="QVBoxLayout" name="verticalLayout_8">
-           <item>
-            <widget class="QTableWidget" name="tableWidget_p_1">
-             <column>
+         <widget class="QWidget" name="page_33">
+          <widget class="QWidget" name="horizontalLayoutWidget_3">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>771</width>
+             <height>551</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <item>
+             <widget class="QLabel" name="label_12">
               <property name="text">
-               <string>工号</string>
+               <string>选中要参与计算的资产地点</string>
               </property>
-             </column>
-             <column>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_13">
               <property name="text">
-               <string>姓名</string>
+               <string>预期制造方案，要造什么造多少</string>
               </property>
-             </column>
-             <column>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_11">
               <property name="text">
-               <string>所属科室</string>
+               <string>分析还要买什么</string>
               </property>
-             </column>
-             <column>
-              <property name="text">
-               <string>办公室位置</string>
-              </property>
-             </column>
-             <column>
-              <property name="text">
-               <string>职位</string>
-              </property>
-             </column>
-             <column>
-              <property name="text">
-               <string>出诊价格</string>
-              </property>
-             </column>
-             <column>
-              <property name="text">
-               <string>地址</string>
-              </property>
-             </column>
-             <column>
-              <property name="text">
-               <string>电话</string>
-              </property>
-             </column>
-             <column>
-              <property name="text">
-               <string>登录密码</string>
-              </property>
-             </column>
-             <column>
-              <property name="text">
-               <string>身份证号</string>
-              </property>
-             </column>
-             <column>
-              <property name="text">
-               <string>性别</string>
-              </property>
-             </column>
-            </widget>
-           </item>
-          </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
          </widget>
-         <widget class="QWidget" name="page_3">
-          <layout class="QVBoxLayout" name="verticalLayout_9">
-           <item>
-            <widget class="QTableWidget" name="tableWidget_p_2">
-             <column>
+         <widget class="QWidget" name="page_32">
+          <widget class="QWidget" name="horizontalLayoutWidget_2">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>771</width>
+             <height>551</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <item>
+             <widget class="QLabel" name="label_10">
               <property name="text">
-               <string>病案号</string>
+               <string>候选框选蓝图列表</string>
               </property>
-             </column>
-             <column>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_9">
               <property name="text">
-               <string>姓名</string>
+               <string>显示所有的制造需要的东西</string>
               </property>
-             </column>
-             <column>
-              <property name="text">
-               <string>性别</string>
-              </property>
-             </column>
-             <column>
-              <property name="text">
-               <string>地址</string>
-              </property>
-             </column>
-             <column>
-              <property name="text">
-               <string>电话</string>
-              </property>
-             </column>
-             <column>
-              <property name="text">
-               <string>预约医生</string>
-              </property>
-             </column>
-             <column>
-              <property name="text">
-               <string>病床编号</string>
-              </property>
-             </column>
-             <column>
-              <property name="text">
-               <string>病房号</string>
-              </property>
-             </column>
-             <column>
-              <property name="text">
-               <string>病人编号</string>
-              </property>
-             </column>
-            </widget>
-           </item>
-          </layout>
-         </widget>
-         <widget class="QWidget" name="page_4">
-          <layout class="QVBoxLayout" name="verticalLayout_10">
-           <item>
-            <widget class="QTableWidget" name="tableWidget_p_3">
-             <column>
-              <property name="text">
-               <string>药品编号</string>
-              </property>
-             </column>
-             <column>
-              <property name="text">
-               <string>批准文号</string>
-              </property>
-             </column>
-             <column>
-              <property name="text">
-               <string>药品名</string>
-              </property>
-             </column>
-             <column>
-              <property name="text">
-               <string>药品类型</string>
-              </property>
-             </column>
-             <column>
-              <property name="text">
-               <string>规格</string>
-              </property>
-             </column>
-             <column>
-              <property name="text">
-               <string>库存数量</string>
-              </property>
-             </column>
-            </widget>
-           </item>
-          </layout>
-         </widget>
-         <widget class="QWidget" name="page_5">
-          <layout class="QVBoxLayout" name="verticalLayout">
-           <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_3">
-             <property name="topMargin">
-              <number>5</number>
-             </property>
-             <property name="bottomMargin">
-              <number>5</number>
-             </property>
-             <item>
-              <widget class="QLabel" name="label_2">
-               <property name="text">
-                <string>医院名称</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QLineEdit" name="lineEdit_name"/>
-             </item>
-            </layout>
-           </item>
-           <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_4">
-             <property name="topMargin">
-              <number>5</number>
-             </property>
-             <property name="bottomMargin">
-              <number>5</number>
-             </property>
-             <item>
-              <widget class="QLabel" name="label_3">
-               <property name="text">
-                <string>医院介绍</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QPushButton" name="pushButton">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
-               </property>
-               <property name="minimumSize">
-                <size>
-                 <width>100</width>
-                 <height>50</height>
-                </size>
-               </property>
-               <property name="text">
-                <string>保存信息</string>
-               </property>
-              </widget>
-             </item>
-            </layout>
-           </item>
-           <item>
-            <widget class="QTextBrowser" name="textBrowser_intro"/>
-           </item>
-           <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_6">
-             <item>
-              <spacer name="horizontalSpacer_6">
-               <property name="orientation">
-                <enum>Qt::Horizontal</enum>
-               </property>
-               <property name="sizeHint" stdset="0">
-                <size>
-                 <width>40</width>
-                 <height>20</height>
-                </size>
-               </property>
-              </spacer>
-             </item>
-             <item>
-              <widget class="QPushButton" name="pushButton_2">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
-               </property>
-               <property name="minimumSize">
-                <size>
-                 <width>100</width>
-                 <height>50</height>
-                </size>
-               </property>
-               <property name="text">
-                <string>生成接下来一周的排班表</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <spacer name="horizontalSpacer_7">
-               <property name="orientation">
-                <enum>Qt::Horizontal</enum>
-               </property>
-               <property name="sizeHint" stdset="0">
-                <size>
-                 <width>40</width>
-                 <height>20</height>
-                </size>
-               </property>
-              </spacer>
-             </item>
-            </layout>
-           </item>
-          </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
          </widget>
         </widget>
        </item>

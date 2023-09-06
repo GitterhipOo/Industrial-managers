@@ -13,3 +13,20 @@ Widget::~Widget()
     delete ui;
 }
 
+
+void Widget::on_menu1_clicked()
+{
+
+}
+
+void Widget::on_menu2_clicked()
+{
+
+}
+
+void Widget::on_menu3_clicked()
+{
+
+}
+
+

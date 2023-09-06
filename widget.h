@@ -15,6 +15,13 @@ public:
     Widget(QWidget *parent = nullptr);
     ~Widget();
 
+private slots:
+    void on_menu1_clicked();
+
+    void on_menu2_clicked();
+
+    void on_menu3_clicked();
+
 private:
     Ui::Widget *ui;
 };
